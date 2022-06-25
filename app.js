@@ -1,7 +1,4 @@
-// const home = document.createElement("div");
-// home.className = "home-container";
-// home.innerHTML = Home();
-// document.body.appendChild(home);
+import { Home } from "./static/js/home.js";
 
 const createContent = () => {
   const appContent = document.querySelector("#main");
